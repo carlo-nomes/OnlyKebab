@@ -20,7 +20,7 @@
     "consumptions": {
       "type": "hasMany",
       "model": "Consumption",
-      "foreignKey": ""
+      "foreignKey": "consumerId"
     }
   },
   "acls": [
