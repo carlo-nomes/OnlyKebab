@@ -6,7 +6,7 @@
     "database": "only_kebab",
     "password": "P4$$w0rd",
     "name": "mongoDs",
-    "user": "admin",
+    "user": "onlyKebab",
     "connector": "mongodb"
   }
 }
