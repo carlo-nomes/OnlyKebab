@@ -12,5 +12,13 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "UserDetail": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Consumption": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
