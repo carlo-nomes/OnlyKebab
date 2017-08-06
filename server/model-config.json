@@ -15,38 +15,39 @@
     ]
   },
   "User": {
-    "dataSource": "mongoDs"
+    "dataSource": "db",
+    "public": false
   },
   "UserIdentity": {
-    "dataSource": "mongoDs",
-    "public": true
+    "dataSource": "db",
+    "public": false
   },
   "UserCredential": {
-    "dataSource": "mongoDs",
-    "public": true
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": false
   },
   "Role": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": false
   },
   "UserDetail": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": true
   },
   "Consumption": {
-    "dataSource": "mongoDs",
+    "dataSource": "db",
     "public": true
   }
 }
